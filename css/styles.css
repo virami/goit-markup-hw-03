@@ -35,7 +35,7 @@ button {
 
 /*  #region header */
 .header-page {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-page .container {
@@ -66,13 +66,11 @@ button {
 .nav-list {
     display: flex;
     gap: 40px;
-    
-
+    padding: 24px 0;
 }
 
 .nav-list-item {
     display: block;
-    padding: 24px 0;
 }
 
 .nav-item-link {
@@ -120,6 +118,7 @@ button {
 /* #region hero */
 .hero {
     margin-bottom: 120px;
+    padding: 188px 0;
     
 }
 .hero .container {
@@ -334,10 +333,11 @@ button {
 /* #region footer */
 .footer-page {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-page .container {
-    padding: 100px 0;
+    
 }
 
 .logo {
