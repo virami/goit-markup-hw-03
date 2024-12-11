@@ -40,6 +40,7 @@ button {
 .header-page .container {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-page {
@@ -55,6 +56,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px
 }
 
 .logo-style {
@@ -64,14 +66,12 @@ button {
 .nav-list {
     display: flex;
     gap: 40px;
-    margin-left: 76px;
 
 }
 
 .nav-list-item {
     display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 
 .nav-item-link {
@@ -122,11 +122,11 @@ button {
 }
 .hero .container {
     background-color: #2e2f42;
-    padding: 188px 316px;
+    padding: 188px 0;
 }
 
 .hero-title {
-    width: 496px;
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -136,14 +136,13 @@ button {
     margin-bottom: 48px;
 }
 
-.btn-container {
-    display: flex;
-    justify-content: center;
-}
 
 .hero-btn {
-    width: 169px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
     padding: 16px 32px;
+    border: none;
     border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
@@ -151,6 +150,7 @@ button {
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4d5ae5;
+    cursor: pointer; 
 }
 
 .hero-btn:hover,
