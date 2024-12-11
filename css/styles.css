@@ -162,7 +162,7 @@ button {
 
 /* #region Features */
 .features-page {
-    margin-bottom: 120px;
+    padding: 120px 0 
 }
 
 .features-title {
@@ -214,13 +214,14 @@ button {
 /* #region Our Team */
 .team-page {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 
 .team-page .container {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    
     margin-bottom: 120px;
 }
+
 
 .team-title {
     font-weight: 700;
@@ -245,6 +246,10 @@ button {
     border-radius: 0 0 4px 4px;
 }
 
+.team-card-emp {
+    padding: 32px 0;
+}
+
 .team-item-title {
     font-weight: 500;
     font-size: 20px;
@@ -252,7 +257,6 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -269,6 +273,8 @@ button {
 
 /* #region Portfolio */
 .portfolio-page {
+    padding-top: 120px; 
+    padding-bottom: 120px; 
 }
 
 .portfolio-page .container {
@@ -296,9 +302,12 @@ button {
 
 .portfolio-list-item {
     width: 360px;
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
+}
+
+.portfolio-card-app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .porfolio-card-title {
@@ -307,9 +316,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-top: 32px;
     margin-bottom: 8px;
-    padding-left: 16px;
 }
 
 .porfolio-card-text {
@@ -318,8 +325,6 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 32px;
-    padding-left: 16px;
 }
 /* #endregion */
 
@@ -330,11 +335,12 @@ button {
 }
 
 .footer-page .container {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
 }
 
 .logo {
+    display: inline-block;
+    margin-bottom: 16px; 
 
 }
 
@@ -349,6 +355,5 @@ footer .logo-style {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-top: 16px;
 }
 /* #endregion */
