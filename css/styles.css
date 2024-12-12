@@ -70,11 +70,12 @@ button {
 }
 
 .nav-list-item {
-    display: block;
+   
 
 }
 
 .nav-item-link {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -104,6 +105,7 @@ button {
 }
 
 .address-info {
+    display: block;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -121,13 +123,13 @@ button {
 
 /* #region hero */
 .hero {
-    margin-bottom: 120px;
+   
     padding: 188px 0;
+    background-color: #2e2f42;
     
 }
 .hero .container {
-    background-color: #2e2f42;
-    padding: 188px 0;
+
 }
 
 .hero-title {
@@ -138,6 +140,8 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 48px;
 }
 
@@ -147,6 +151,8 @@ button {
     min-width: 169px;
     height: 56px;
     padding: 16px 32px;
+    margin-right: auto;
+    margin-left: auto;
     border: none;
     border-radius: 4px;
     font-weight: 500;
@@ -272,7 +278,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    margin-bottom: 32px;
+    
 }
 /* #endregion */
 
@@ -302,7 +308,7 @@ button {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    margin-bottom: 120px;
+    
 }
 
 .portfolio-list-item {
@@ -344,7 +350,7 @@ button {
     
 }
 
-.logo {
+.logo-footer{
     display: inline-block;
     margin-bottom: 16px; 
 
